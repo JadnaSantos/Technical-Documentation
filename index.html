@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Build a Technical Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>HTML5 Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Prerequisites" class="nav-link">Prerequisites</a>
+        <a href="#Use_Html" class="nav-link">Use HTML5</a>
+        <a href="#Modules" class="nav-link">Modules</a>
+        <a href="#Solving_Commom_HTML_Problems" class="nav-link">Solving Commom HTML Problems</a>
+        <a href="#See_also" class="nav-link">See Also</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. 
+            HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, 
+            multimedia player, form, or one of many other available elements or even a new element that you define.</p>
+        </section>
+        <section class="main-section" id="Prerequisites">
+            <header>Prerequisites</header>
+            <p>Before starting this topic, you should have at least basic familiarity with using computers and using the web passively (i.e. just looking at it, consuming the content).
+            You should have a basic work environment set up as detailed in Installing basic software, and understand how to create and manage files, 
+            as detailed in Dealing with files — both are parts of our Getting started with the web complete beginner's module.</p>
+
+            <p>Is recommended that you work through Getting started with the web before attempting this topic, however, it isn't absolutely necessary; much of what is covered in the HTML basics article is also covered in our Introduction to HTML module, albeit in a lot more detail.</p>
+            
+            <p>After learning HTML, you can then move on to learning about more advanced topics such as:   
+            <ul>  
+                <li>CSS, and how to use it to style HTML (for example alter your text size and fonts used, add borders and drop shadows, layout your page with multiple columns, add animations and other visual effects.)</li>
+                <li>JavaScript, and how to use it to add dynamic functionality to web pages (for example find your location and plot it on a map, make UI elements appear/disappear when you toggle a button, save users' data locally on their computers, and much much more.)</li></p>
+            </ul>
+
+        </section>
+
+        <section class="main-section" id="Use_Html">
+            <header>Use HTML5</header>
+            <p>The first ways to use HTML5</p>
+            <ul>
+                <li>What is the HTML head?</li>
+                <li>Head element</li>
+                <li>Meta element</li>
+            </ul>
+
+            <h3>What is the HTML head?</h3>
+            <p>Let's revisit the simple HTML document we covered in the previous article</p>
+            <pre>
+                <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="utf-8"&gt;
+                        &lt;title&gt;My test page/title&gt;
+                    &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;pThis is my page/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                </code>
+            </pre>
+
+
+            <h3>Head Element</h3>
+            <p>The HTML head is the contents of the &lt;meta&gt; element unlike the contents of the &lt;/body&gt; element 
+            (which are displayed on the page when loaded in a browser), the head's content is not displayed on the page.
+            </p>
+            <pre>
+                <code>
+                    &lt;head&gt;
+                        &lt;meta charset="utf-8"&gt;
+                        &lt;title&gt;My test page/title&gt;
+                    &lt;/head&gt;
+                </code>
+            </pre>
+
+            <h3>Specifying your document's character encnding</h3>
+            <p>In the exemple we saw above, this line was included:</p>
+            <pre>
+                <code>
+                    &lt;meta charset="UTF-8"&gt;
+                </code>
+            </pre>
+
+        </section>
+
+        <section class="main-section" id="Modules">
+            <header>Modules</header>
+            <p>Modules
+                This topic contains the following modules, in a suggested order for working through them. You should definitely start with the first one.
+                
+                <h3>Introduction to HTML</h3>
+                <p>This module sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage.</p>
+                <h3>Multimedia and embedding</h3>
+                <p>This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.</p>
+                <h3>HTML tables</h3>
+                <p>tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more complex features such as implementing captions and summaries.</p>
+            </p>
+        </section>
+        <section class="main-section" id="Solving_Commom_HTML_Problems">
+            <header>Solving Commom HTML Problems</header>
+            <p>Use HTML to solve common problems provides links to sections of content explaining how to use HTML to solve very common problems when creating a webpage: 
+            dealing with titles, adding images or videos, emphasizing content, creating a basic form, etc.</p>
+        </section>
+        <section class="main-section" id="See_also">
+            <header>See Also</header>
+            <p>
+                <h3>Web forms</h3>
+                <p>This module provides a series of articles that will help you master the essentials of web forms. Web forms are a very powerful tool for interacting with users — most commonly they are used for collecting data from users, or allowing them to control a user interface. 
+                However, for historical and technical reasons it's not always obvious how to use them to their full potential. 
+                We'll cover all the essential aspects of Web forms including marking up their HTML structure, styling form controls, validating form data, and submitting data to the server.</p>
+                <h3>HTML (HyperText Markup Language)</h3>
+                <p>The main entry point for HTML reference documentation on MDN, including detailed element and attribute references — if you want to know what attributes an element has or what values an attribute has, for example, this is a great place to start.</p>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
