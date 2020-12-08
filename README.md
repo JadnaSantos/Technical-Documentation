@@ -3,7 +3,7 @@
 <h1 align="center">Technical Documentation</h1>
 
 
-## Project Dewcription
+## Project Description
 <p align="center">
 This project I creat a Technical Documentation and I used HTML5. I have studying at FreeCodeCamp and I finishid Web Desing course. It was amazing because I had oportunity to learn many thing!
 </p>
